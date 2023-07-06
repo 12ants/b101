@@ -1,7 +1,7 @@
 <template>
-<div>
-<h3>bab ex</h3>
-</div>
+<h4>hello</h4>
+<canvas>
+</canvas>
 </template>
 
 <script lang="ts">
@@ -18,6 +18,11 @@ new BasicScene(canvas);
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+}
 canvas {
 width: 100%;
 height: 100%;
